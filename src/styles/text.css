@@ -1,0 +1,79 @@
+
+.color--white {
+    color: #F5F5F1;
+}
+
+.color--darkRed {
+    color: #B81D24;
+}
+
+.color--lightRed {
+    color: #E50914;
+}
+
+a {
+    text-decoration: none;
+    text-underline: none;
+}
+
+.size--300 {
+    font-size: 300%;
+}
+
+.size--50 {
+    font-size: 150%;
+}
+
+.font--CircularBlack {
+    font-family: CircularBlack, serif;
+}
+
+.font--CircularLight {
+    font-family: CircularLight, serif;
+}
+
+.font--CircularMedium {
+    font-family: CircularMedium, serif;
+}
+
+.font--NetflixSansBold {
+    font-family: NetflixSansBold, serif;
+}
+
+.font--NetflixSansLight {
+    font-family: NetflixSansLight, serif;
+}
+
+.font--NetflixSansRegular {
+    font-family: NetflixSansRegular, serif;
+}
+
+@font-face {
+    font-family: 'CircularBlack';
+    src: url("../fonts/CircularStd-Black.otf");
+}
+
+@font-face {
+    font-family: 'CircularLight';
+    src: url("../fonts/CircularStd-Light.otf");
+}
+
+@font-face {
+    font-family: 'CircularMedium';
+    src: url("../fonts/CircularStd-Medium.otf");
+}
+
+@font-face {
+    font-family: 'NetflixSansBold';
+    src: url("../fonts/NetflixSans-Bold.otf");
+}
+
+@font-face {
+    font-family: 'NetflixSansLight';
+    src: url("../fonts/NetflixSans-Light.otf");
+}
+
+@font-face {
+    font-family: 'NetflixSansRegular';
+    src: url("../fonts/NetflixSans-Regular.otf");
+}

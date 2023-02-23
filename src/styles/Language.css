@@ -1,0 +1,41 @@
+.card_dimensions--200 {
+    height: 200px;
+    width: 200px;
+    background-color: #171515;
+    border-radius: 15px;
+}
+
+.position--relative {
+    position: relative;
+    display: inline-block;
+}
+
+.position--absolute--center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.max-width--100 {
+    max-width: 100%;
+    height: auto;
+}
+
+.display--block {
+    display: block;
+}
+
+.filter--black:hover {
+
+    background-image: linear-gradient(to top, #F5F5F1, #221F1F, #221F1F );
+}
+
+.img {
+    filter: brightness(100%) saturate(100%) contrast(103%) blur(1px);
+}
+
+
+
+

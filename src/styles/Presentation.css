@@ -1,0 +1,40 @@
+.height--60vh {
+    height: 60vh;
+}
+
+.margin_top--0 {
+    margin-top: 0;
+}
+
+.margin_top--5 {
+    margin-top: 5%;
+}
+
+.margin_bottom--2 {
+    margin-bottom: 2%;
+}
+
+.width--50 {
+    width: 50%;
+}
+
+.button_padding {
+    padding: 1% 1% 1% 1%;
+    border-radius: 2px;
+    border: #E50914 solid 2px;
+}
+
+.email-button:hover {
+    color: #E50914;
+}
+
+.button_padding:hover {
+    background-color: #E50914;
+}
+
+
+.items_alignment--center-left {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
