@@ -1,0 +1,29 @@
+.height--30vh {
+    height: 30vh;
+}
+
+.languages_title {
+    margin-left: 10px;
+}
+
+.container {
+    margin: 10% 5% 10% 5%;
+}
+
+.alignement--center {
+   display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.languages_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.languages_language_item {
+    flex: 10%;
+    padding: 10px;
+}

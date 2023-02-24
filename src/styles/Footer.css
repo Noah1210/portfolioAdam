@@ -1,0 +1,32 @@
+.footer_container {
+    background-color: #171515;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.copyright {
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+.networks_div {
+    display: flex;
+    align-items: center;
+}
+
+.networks_icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    gap: 50%;
+}
+
+.icon_item {
+    font-size: 150%;
+}
+
+.icon_link:hover {
+    color: #E50914;
+}

@@ -1,5 +1,5 @@
-.height--60vh {
-    height: 60vh;
+.height--45vh {
+    height: 50vh;
 }
 
 .margin_top--0 {
@@ -21,15 +21,7 @@
 .button_padding {
     padding: 1% 1% 1% 1%;
     border-radius: 2px;
-    border: #E50914 solid 2px;
-}
-
-.email-button:hover {
-    color: #E50914;
-}
-
-.button_padding:hover {
-    background-color: #E50914;
+    border: blue solid 2px;
 }
 
 
@@ -38,3 +30,5 @@
     align-items: center;
     margin-left: 15%;
 }
+
+

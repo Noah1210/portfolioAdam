@@ -1,15 +1,26 @@
 import '../../styles/text.css';
-import '../../styles/Nav.css'
+import '../../styles/Nav.css';
+import '../../styles/animation.css';
 export default function Nav()
 {
     return (
         <div className='height--20 items_alignment--row padding_left_right--3'>
-            <h1 className='font--NetflixSansBold color--lightRed'>ADAM RAFIK</h1>
+
+            <div className='nav_name_container'>
+                <a href='/' className='font--NetflixSansBold color--white nav_name'>ADAM RAFIK</a>
+                <div className='nav_name_line'></div>
+            </div>
+
+
+
             <ul className='font--CircularMedium ul--style items_alignment--row'>
-                <li><a href='#' className='color--white'>Qui suis-je ?</a></li>
-                <li><a href='#' className='color--white'>Langages</a></li>
-                <li><a href='#' className='color--white'>Projets</a></li>
+                <li className='nav_item fill_rectangle'><a href='#' className='color--white'>Qui suis-je ?</a></li>
+                <li className='nav_item fill_rectangle'><a href='#' className='color--white'>Langages</a></li>
+                <li className='nav_item fill_rectangle'><a href='#' className='color--white'>Projets</a></li>
             </ul>
+
+
+
         </div>
 
     )

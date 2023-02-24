@@ -3,12 +3,16 @@
     color: #F5F5F1;
 }
 
+.color--black {
+    color: #221F1F;
+}
+
 .color--darkRed {
     color: #B81D24;
 }
 
 .color--lightRed {
-    color: #E50914;
+    color: #7c08ad;
 }
 
 a {
@@ -20,8 +24,16 @@ a {
     font-size: 300%;
 }
 
-.size--50 {
+.size--150 {
     font-size: 150%;
+}
+
+.size--100 {
+    font-size: 100%;
+}
+
+.size--32px {
+    font-size: 32px;
 }
 
 .font--CircularBlack {

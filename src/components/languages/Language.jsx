@@ -1,13 +1,12 @@
 import '../../styles/Language.css';
-import '../../styles/text.css'
+import '../../styles/text.css';
+import '../../styles/animation.css';
 
 export default function Language(props) {
     return (
-        <div className='card_dimensions--200 position--relative filter--black'>
-            <div className=' max-width--100 display--block'></div>
-            <img src={props.src} alt={props.alt} className='max-width--100 display--block img'/>
-
-            <h1 className='font--CircularLight color--white position--absolute--center nametest'>{props.name}</h1>
+        <div className='language_card'>
+            <img className='language_image' src={props.src} lang={props.alt}/>
+            <h1 className='font--CircularLight color--white language_name'>{props.name}</h1>
         </div>
     )
 }

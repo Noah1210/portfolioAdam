@@ -1,0 +1,25 @@
+import '../../styles//Project.css';
+import foto from '../../images/foto.jpg'
+
+export default function Project(props) {
+    return (
+        <div className='project_card color--black'>
+                <a href='#' className='project_image_container'>
+                    <img className='project_image' src={foto}/>
+                </a>
+
+            <div className='project_description_div'>
+                <div className='project_description_title'>
+                    <h1 className='project_description_name color--white font--NetflixSansRegular'>{props.name}</h1>
+                    <div className='project_description_title_line'></div>
+                </div>
+
+                <p className='project_description_text color--white font--CircularLight'>{props.description}</p>
+
+                <span className='project_description_type_span'>
+                <u className='project_description_type color--white font--NetflixSansLight'>{props.type}</u>
+            </span>
+            </div>
+        </div>
+    );
+}

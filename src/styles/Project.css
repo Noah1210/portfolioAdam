@@ -1,0 +1,73 @@
+.project_card {
+    width: 100%;
+    border-radius: 20px;
+    padding: 3% 0 0 0 ;
+    margin-bottom: 7%;
+    display: flex;
+}
+.project_image_container {
+    transition: transform 0.3s ease;
+}
+
+.project_image_container:hover {
+    transform: scale(1.1);
+}
+
+.project_image {
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px;
+    margin: 0;
+}
+.project_description_div {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 22%;
+}
+
+.project_description_div {
+    position: relative;
+}
+.project_description_title {
+    position: relative;
+    display: inline-block;
+    margin-right: auto;
+}
+.project_description_name {
+    margin: 0;
+    width: 100%;
+
+}
+
+.project_description_title_line {
+    position: absolute;
+    top: 70%; left: 0; right: 0; bottom: 10%;
+    background-color: rgba(240, 56, 107, 0.75);
+    z-index: -1;
+}
+
+.project_description_text {
+    width: 90%;
+}
+
+.project_description_type_div {
+
+}
+
+.project_description_type_span {
+
+}
+
+.project_description_type {
+    box-shadow: blue 0px -8px 0px 0px inset;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+.type_underline {
+
+}
