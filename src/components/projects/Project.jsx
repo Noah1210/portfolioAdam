@@ -1,11 +1,10 @@
 import '../../styles//Project.css';
-import foto from '../../images/foto.jpg'
 
 export default function Project(props) {
     return (
         <div className='project_card color--black'>
                 <a href='#' className='project_image_container'>
-                    <img className='project_image' src={foto}/>
+                    <img className='project_image' src={props.src} alt={props.alt}/>
                 </a>
 
             <div className='project_description_div'>

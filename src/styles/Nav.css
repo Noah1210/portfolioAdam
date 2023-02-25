@@ -1,3 +1,21 @@
+.nav_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(34, 31, 31, 0.65);
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    opacity: 0;
+    animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+    }
+}
+
 .ul--style {
     list-style-type: none;
 

@@ -4,7 +4,7 @@ import '../../styles/animation.css';
 export default function Nav()
 {
     return (
-        <div className='height--20 items_alignment--row padding_left_right--3'>
+        <div className='items_alignment--row padding_left_right--3 nav_bar'>
 
             <div className='nav_name_container'>
                 <a href='/' className='font--NetflixSansBold color--white nav_name'>ADAM RAFIK</a>

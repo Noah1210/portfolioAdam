@@ -1,4 +1,27 @@
 html {
     height: 100vh;
     background: #221F1F;
+
+}
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #221F1F;
+    z-index: 9999;
+    opacity: 0;
+    animation: fade-in 2s forwards;
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+    }
 }
