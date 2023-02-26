@@ -1,29 +1,49 @@
 .presentation_container {
     height: 50vh;
     display: flex;
-    align-items: end;
+    flex-direction: column;
     margin-left: 15%;
     margin-top: 7%;
+}
+
+.presentation_title {
+    font-size: 300%;
+    margin-top: 7%;
+    margin-bottom: 2%;
 }
 
 .margin_top--0 {
     margin-top: 0;
 }
 
-.margin_top--5 {
-    margin-top: 5%;
-}
-
-.margin_bottom--2 {
-    margin-bottom: 2%;
-}
-
-.width--50 {
+.presentation_text {
     width: 50%;
-}
+    margin-bottom: 2%;
+    margin-top: 5%;
 
-.button_padding {
+}
+.button_resume {
     padding: 1% 1% 1% 1%;
     border-radius: 2px;
     border: blue solid 2px;
+    max-width: 15%;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .presentation_container {
+        margin-left: 7%;
+        height: auto;
+        margin-bottom: 15%;
+    }
+    .presentation_title {
+        font-size: 25px;
+    }
+    .presentation_text {
+        width: 100%;
+    }
+    .button_resume{
+        max-width: 30%;
+        background-color: blue;
+    }
 }

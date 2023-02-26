@@ -22,7 +22,6 @@
 .project_description_div {
     display: flex;
     flex-direction: column;
-
     margin-left: 22%;
 }
 
@@ -51,13 +50,6 @@
     width: 90%;
 }
 
-.project_description_type_div {
-
-}
-
-.project_description_type_span {
-
-}
 
 .project_description_type {
     box-shadow: blue 0px -8px 0px 0px inset;
@@ -69,5 +61,41 @@
 
 }
 .type_underline {
+
+}
+
+@media (max-width: 600px){
+    .project_card {
+        flex-direction: column;
+    }
+
+    .project_description_div {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .project_description_text {
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 500px) {
+    .project_image_container {
+        transition: none;
+    }
+    .project_image {
+        max-width: 100%;
+    }
+   .project_description_div {
+       margin-top: 2%;
+       align-items: start;
+   }
+   .project_description_text{
+       text-align: start;
+       margin-bottom: 7%;
+   }
+   body {
+       padding-bottom: 7%;
+   }
 
 }

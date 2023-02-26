@@ -1,4 +1,4 @@
-import Language from "../languages/Language";
+import SmallCards from "../languages/SmallCards";
 import vsCodeLogo from "../../images/vscode.png";
 import jetbrainsLogo from "../../images/jetbrains.png";
 import postmanLogo from "../../images/postman.webp";
@@ -46,9 +46,9 @@ export default function Tools() {
 
                 {tools.map((tool) => (
 
-                    <a className='languages_language_item' href={tool.link}>
-                        <Language name={tool.name} src={tool.src} alt={tool.alt}/>
-                    </a>
+                    <span className='languages_language_item' href={tool.link}>
+                        <SmallCards name={tool.name} src={tool.src} alt={tool.alt}/>
+                    </span>
 
                 ))}
 

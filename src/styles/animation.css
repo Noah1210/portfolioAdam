@@ -46,3 +46,12 @@
     color: #F5F5F1;
     transform: scale(1.1);
 }
+
+@media (max-width: 500px) {
+    .fill_header {
+        transition: none;
+    }
+    .fill_rectangle {
+        transition: none;
+    }
+}

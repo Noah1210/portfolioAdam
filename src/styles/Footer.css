@@ -36,3 +36,9 @@
     color: rgba(240, 56, 107, 0.75);
 
 }
+
+@media (max-width: 500px) {
+    .footer_container {
+        display: none;
+    }
+}

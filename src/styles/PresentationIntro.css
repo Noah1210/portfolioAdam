@@ -1,0 +1,25 @@
+.presentation-intro_container {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.presentation-intro_title_div {
+    position: relative;
+    display: inline-block;
+}
+
+.presentation-intro_title {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.presentation-intro_title_line {
+    margin-top: 0;
+    position: absolute;
+    top: 78%; left: 0; right: 0; bottom: 5%;
+    background-color: blue;
+    z-index: -1;
+}
+
+.presentation-page_introduction {
+    width: 70%;
+}

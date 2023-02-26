@@ -1,4 +1,4 @@
-import Language from "./Language";
+import SmallCards from "./SmallCards";
 import '../../styles/Languages.css';
 import '../../styles/text.css';
 import '../../styles/animation.css';
@@ -85,15 +85,14 @@ export default function Languages() {
     ];
     return (
         <div className='container'>
-            <a href='#' className='color--white font--CircularLight size--150 languages_title fill_header'>Langages de programmation (voir
-                plus)</a>
+            <a href='#' className='color--white font--CircularLight size--150 languages_title fill_header' id='programming-languages'>Langages de programmation</a>
             <div className='languages_container'>
 
                 {languages.map((language) => (
 
-                    <a className='languages_language_item' href={language.link}>
-                        <Language name={language.name} src={language.src} alt={language.alt}/>
-                    </a>
+                    <span className='languages_language_item'>
+                        <SmallCards name={language.name} src={language.src} alt={language.alt}/>
+                    </span>
 
                 ))}
 
