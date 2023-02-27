@@ -17,10 +17,10 @@ export default function PresentationPage() {
 
     const paragraphs = [{
         header: 'Présentation',
-        text: "Je m'appelle Adam Rafik, j'ai 19 ans et je suis passionné d'informatique. " + "Dev, réseaux, cyber-sécurité, tout m'interesse du moment que je peux apprendre quelque chose de nouveau." + "Mais j'ai tout de même une petite préférence pour le dev, que ce soit front ou back. Le front me permet" + "de laisser s'exprimer \"l'artiste\" qui est en moi, et le back me permet de faire travailler ma logique."
+        text: "Je m'appelle Adam Rafik, j'ai 19 ans et je suis passionné d'informatique. " + "Dev, réseaux, cyber-sécurité, tout m'interesse du moment que je peux apprendre quelque chose de nouveau." + " Mais j'ai tout de même une petite préférence pour le dev, que ce soit front ou back. Le front me permet" + " de laisser s'exprimer \"l'artiste\" qui est en moi, et le back me permet de faire travailler ma logique."
     }, {
         header: "Ce que je recherche",
-        text: "Actuellement étudiant à l'École Hexagone, je suis à la recherche d'une alternance pour l'année scoalaire 2023/2023." + "Je recherche un alternance dans le domaine du développement de préférence, mais je reste ouvert à toute propositions."
+        text: "Actuellement étudiant dans une école d'informatique, je suis à la recherche d'une alternance pour l'année scolaire 2023/2024. Je recherche une alternance dans le domaine du développement de préférence, mais je reste ouvert à toute proposition. interesse ou tout simplement que vous avez une missions je suis prenneur. De plus, j'ai pour objectif de devenir développeur freelance, alors si mon profil vous intéresse ou tout simplement que vous avez une mission je suis preneur."
     }, {
         header: "Pourquoi moi ?",
         text: "Je suis quelqu'un de passioné par ce que je fais et quand je fais quelque chose je le fais à fond. J'apprends vite"

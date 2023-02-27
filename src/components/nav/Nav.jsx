@@ -15,8 +15,8 @@ export default function Nav()
 
             <ul className='font--CircularMedium nav_item_container'>
                 <li className='nav_item fill_rectangle'><a href='/me' className='color--white'>Qui suis-je ?</a></li>
-                <li className='nav_item fill_rectangle'><a href='#programming-languages' className='color--white'>Langages/Outils</a></li>
-                <li className='nav_item fill_rectangle'><a href='#projects' className='color--white'>Projets</a></li>
+                <li className='nav_item fill_rectangle'><a href='/#programming-languages' className='color--white'>Langages/Outils</a></li>
+                <li className='nav_item fill_rectangle'><a href='/#projects' className='color--white'>Projets</a></li>
             </ul>
 
 
