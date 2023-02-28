@@ -14,7 +14,7 @@ export default function Presentation() {
                 Curieux d'apprendre et d'essayer de nouvelles choses, j'ai aussi pour projet de devenir developpeur
                 freelance. Alors si vous cherchez quelqu'un n'hesitez pas à me contacter 👨‍💻.
             </p>
-            <a href='#' className='color--white font--CircularMedium button_resume fill_rectangle'>Télécharger mon
+            <a href='pathToFile' download='cvRafikAdam' className='color--white font--CircularMedium button_resume fill_rectangle'>Télécharger mon
                 CV</a>
         </div>
     )
