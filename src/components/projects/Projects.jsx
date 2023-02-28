@@ -9,7 +9,7 @@ export default function Projects() {
             alt: 'Project screenshot',
             name: 'Site de VOD',
             description: "Ce projet est la création d'un site de VOD tel que Netflix. J'ai travaillé sur le back-end en Symfony. Pour ce qui est du front, c'est un de mes collègues de classe qui s'en est occupé, il à été réalisé en Angular. J'ai réalisé l'entièreté du back en approximativement 2 semaines (à 4h de travail par jour en moyenne).",
-            githubLink: '',
+            githubLink: 'https://github.com/Adam-rk/Netflix-clone',
             type: '️👨‍💻‍👨‍💻 Projet en duo'
         },
         {
