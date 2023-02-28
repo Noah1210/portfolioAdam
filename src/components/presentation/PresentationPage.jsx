@@ -23,7 +23,7 @@ export default function PresentationPage() {
         text: "Actuellement étudiant dans une école d'informatique, je suis à la recherche d'une alternance pour l'année scolaire 2023/2024. Je recherche une alternance dans le domaine du développement de préférence, mais je reste ouvert à toute proposition. interesse ou tout simplement que vous avez une missions je suis prenneur. De plus, j'ai pour objectif de devenir développeur freelance, alors si mon profil vous intéresse ou tout simplement que vous avez une mission je suis preneur."
     }, {
         header: "Pourquoi moi ?",
-        text: "Je suis quelqu'un de passioné par ce que je fais et quand je fais quelque chose je le fais à fond. J'apprends vite"
+        text: "En tant que développeur passionné je suis capable de travailler de manière autonome et de m’adapter  rapidement aux situations et aux problèmes qui se présentent à moi. Je suis capable de fournir un travail de qualité dans les délais imparti. Si vous cherchez un développeur compétent et passionné alors je suis convaincu que je suis la personne qu’il vous faut."
     }, {
         header: "Langues",
         text: "En ayant vécu pendant 16 ans au Maroc et étudié dans une école française, j'ai eu la chance d'évoluer dès mon plus jeune âge dans un environnement culturellement riche. Cette expérience m'a profondément marqué et a nourri ma curiosité naturelle. C'est ainsi que j'ai appris plusieurs langues, ce qui constitue aujourd'hui un atout considérable dans le monde professionnel. Grâce à cette richesse culturelle et linguistique, j'ai acquis une ouverture d'esprit qui, je pense, ne peux être que bénéfique dans mon travail."
@@ -43,6 +43,8 @@ export default function PresentationPage() {
     return (<div>
         <Nav/>
         <ContactCard/>
+
+
         {paragraphs.map(paragraph => <PresentationHeaderAndText header={paragraph.header} text={paragraph.text}/>)}
 
         <div className='spoken-languages_cards'>

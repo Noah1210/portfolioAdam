@@ -111,6 +111,7 @@
 .link {
     color: #F5F5F1;
     text-align: start;
+    z-index: 999;
 
 }
 

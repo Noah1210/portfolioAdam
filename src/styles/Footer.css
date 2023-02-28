@@ -25,12 +25,10 @@
 
 .icon_item {
     font-size: 150%;
-    transition: transform 0.3s ease;
+
 }
 
-.icon_item:hover {
-    transform: scale(1.2);
-}
+
 
 .icon_link:hover {
     color: rgba(240, 56, 107, 0.75);
