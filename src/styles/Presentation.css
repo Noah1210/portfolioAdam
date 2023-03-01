@@ -1,14 +1,14 @@
 .presentation_container {
-    height: 35vh;
+
     display: flex;
     flex-direction: column;
     margin-left: 15%;
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 .presentation_title {
     font-size: 300%;
-    margin-top: 7%;
+
     margin-bottom: 2%;
 }
 

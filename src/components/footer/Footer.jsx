@@ -25,16 +25,18 @@ export default function Footer() {
         event.preventDefault();
 
     }
+
     return (
         <div className='footer_container'>
             <h1 className='color--white font--CircularLight copyright'>Adam@2023</h1>
-            <div className='networks_div'>
-                <ul className='networks_icons'>
-                    <li className='icon_item'><a className='icon_link color--white' target="_blank" href='https://www.linkedin.com/in/adam-rafik-268348230/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKxwj6YB8THKHXP3rh780vg%3D%3D'><Icon.Linkedin /></a></li>
-                    <li className='icon_item'><a className='icon_link color--white' href='#' onClick={handleDiscordClick}><Icon.Discord /></a></li>
-                    <li className='icon_item'><a className='icon_link color--white' target="_blank" href='https://github.com/Adam-rk'><Icon.Github /></a></li>
-                </ul>
+            <div className='footer_links font--CircularLight font'>
+                <a className='footer_icon_link color--white' target="_blank"
+                   href='https://www.linkedin.com/in/adam-rafik-268348230/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKxwj6YB8THKHXP3rh780vg%3D%3D'>GitHub</a>
+                <a className='footer_icon_link color--white' href='mailto:contact@adamrafik.com'>contact@adamrafik.com</a>
+                <a className='footer_icon_link color--white' target="_blank" href='https://github.com/Adam-rk'>LinkedIn</a>
+                <a className='footer_icon_link color--white' target="_blank" href=''>Malt</a>
             </div>
+
         </div>
     )
 }

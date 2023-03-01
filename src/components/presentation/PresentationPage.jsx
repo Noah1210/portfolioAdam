@@ -42,7 +42,7 @@ export default function PresentationPage() {
     }]
     return (<div>
         <Nav/>
-        <ContactCard/>
+
 
 
         {paragraphs.map(paragraph => <PresentationHeaderAndText header={paragraph.header} text={paragraph.text}/>)}

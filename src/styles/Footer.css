@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 3%;
 }
 
 .copyright {
@@ -10,31 +11,20 @@
     font-size: 70%;
 }
 
-.networks_div {
+.footer_links {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+.footer_icon_link {
+    font-size: 80%;
+    font-weight: lighter;
+    transition: transform 0.3s ease;
+    margin-bottom: 1%;
 }
 
-.networks_icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-type: none;
-    gap: 50%;
+.footer_icon_link:hover {
+    transform: scale(1.05);
 }
-
-.icon_item {
-    font-size: 150%;
-
-}
-
-
-
-.icon_link:hover {
-    color: rgba(240, 56, 107, 0.75);
-
-}
-
 @media (max-width: 500px) {
     .footer_container {
         display: none;
