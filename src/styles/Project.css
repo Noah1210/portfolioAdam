@@ -60,10 +60,25 @@
     bottom: 0;
 
 }
-.type_underline {
 
+.single_project:nth-child(1)  {
+    transform: translateY(100%);
+    animation: slide-up 1s forwards;
 }
 
+.single_project:nth-child(2)  {
+    transform: translateY(100%);
+    animation: slide-up 2s forwards;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 @media (max-width: 600px){
     .project_card {
         flex-direction: column;

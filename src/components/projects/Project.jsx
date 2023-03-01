@@ -3,7 +3,7 @@ import '../../styles//Project.css';
 export default function Project(props) {
     return (
         <div className='project_card color--black'>
-            <a href='#' className='project_image_container'>
+            <a href={props.githublink} target='_blank' className='project_image_container'>
                 <img className='project_image' src={props.src} alt={props.alt}/>
             </a>
 
