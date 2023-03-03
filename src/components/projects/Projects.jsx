@@ -22,7 +22,7 @@ export default function Projects() {
         }
     ]
     return (
-        <div className='container'>
+        <div className='projects_container'>
             <a href='#' className='color--white font--CircularLight size--150 fill_header' id='projects'>Projets (voir
                 plus)</a>
             <div className='projects_container'>

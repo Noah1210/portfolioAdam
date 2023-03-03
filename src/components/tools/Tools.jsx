@@ -40,9 +40,9 @@ export default function Tools() {
         }
     ];
     return (
-        <div className='container'>
+        <div className='tools_container'>
             <a href='#' className='color--white font--CircularLight size--150 languages_title fill_header'>Outils</a>
-            <div className='languages_container'>
+            <div className='languages_items_container'>
 
                 {tools.map((tool) => (
 

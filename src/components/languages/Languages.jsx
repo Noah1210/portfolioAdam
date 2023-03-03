@@ -84,9 +84,9 @@ export default function Languages() {
         }
     ];
     return (
-        <div className='container'>
+        <div className='languages_container'>
             <a href='#' className='color--white font--CircularLight size--150 languages_title fill_header' id='programming-languages'>Langages de programmation</a>
-            <div className='languages_container'>
+            <div className='languages_items_container'>
 
                 {languages.map((language) => (
 

@@ -25,7 +25,16 @@
     transition: transform 0.3s ease;
 }
 
-
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
 
 @media (max-width: 500px) {
     .fill_header {

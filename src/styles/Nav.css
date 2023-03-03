@@ -1,22 +1,28 @@
 .nav_bar {
     background-color: rgba(34, 31, 31, 0.65);
     backdrop-filter: blur(10px);
-    opacity: 0;
-    animation: fade-in 1s forwards;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-top: 1%;
     padding: 0 0 0 5%;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: nav-slide 1s forwards;
 }
 
-@keyframes fade-in {
-    to {
+@keyframes nav-slide {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
         opacity: 1;
+        transform: translateY(0);
     }
 }
-
 .nav_name {
     font-size: 32px;
 }
@@ -43,7 +49,12 @@
 
 .icon_link {
     font-size: 150%;
-    margin: 0 2% 0 2%
+    margin: 0 2% 0 2%;
+    transition: transform 0.2s ease;
+}
+
+.icon_link:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width: 500px) {
@@ -57,6 +68,10 @@
 
     }
     .nav_item_container {
+        display: none;
+    }
+
+    .network_div {
         display: none;
     }
 }

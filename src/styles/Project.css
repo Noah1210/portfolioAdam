@@ -94,6 +94,10 @@
     }
 }
 
+.projects_container {
+    margin: 5% 5% 5% 5%;
+}
+
 @media (max-width: 500px) {
     .project_image_container {
         transition: none;
@@ -108,6 +112,9 @@
    .project_description_text{
        text-align: start;
        margin-bottom: 7%;
+   }
+   .projects_container {
+       text-align: center;
    }
    body {
        padding-bottom: 7%;

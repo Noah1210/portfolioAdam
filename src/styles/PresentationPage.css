@@ -1,9 +1,45 @@
-.spoken-languages_cards {
+.spoken-languages_container {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
-
-    gap: 10%;
+    margin-top: 2%;
+    gap: 3%;
+    width: 50%;
     margin-left: 15%;
-    margin-bottom: 7%;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slide-in 3s forwards;
+}
+
+.spoken-language_item {
+    padding-bottom: 10px;
+}
+
+.paragraph:nth-child(1) {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slide-in 1s forwards;
+}
+
+.paragraph:nth-child(2) {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slide-in 1.5s forwards;
+}
+
+.paragraph:nth-child(3) {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slide-in 2s forwards;
+}
+
+.paragraph:nth-child(4) {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slide-in 2.5s forwards;
+}
+
+.paragraph:nth-child(5) {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slide-in 2.5s forwards;
 }

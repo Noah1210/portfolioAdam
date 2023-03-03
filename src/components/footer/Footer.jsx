@@ -30,11 +30,12 @@ export default function Footer() {
         <div className='footer_container'>
             <h1 className='color--white font--CircularLight copyright'>Adam@2023</h1>
             <div className='footer_links font--CircularLight font'>
-                <a className='footer_icon_link color--white' target="_blank"
-                   href='https://www.linkedin.com/in/adam-rafik-268348230/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKxwj6YB8THKHXP3rh780vg%3D%3D'>GitHub</a>
                 <a className='footer_icon_link color--white' href='mailto:contact@adamrafik.com'>contact@adamrafik.com</a>
-                <a className='footer_icon_link color--white' target="_blank" href='https://github.com/Adam-rk'>LinkedIn</a>
-                <a className='footer_icon_link color--white' target="_blank" href=''>Malt</a>
+                <a className='footer_icon_link color--white' target="_blank" href='https://www.malt.fr/profile/adamrafik'>Malt</a>
+                <a className='footer_icon_link color--white' target="_blank"
+                   href='https://www.linkedin.com/in/adam-rafik-268348230/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKxwj6YB8THKHXP3rh780vg%3D%3D'>LinedIn</a>
+                <a className='footer_icon_link color--white' target="_blank" href='https://github.com/Adam-rk'>Github</a>
+
             </div>
 
         </div>
