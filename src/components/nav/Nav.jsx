@@ -37,8 +37,6 @@ export default function Nav() {
             <div className='network_div'>
 
                 <a className='icon_link color--white' href='mailto:contact@adamrafik.com'><Icon.EnvelopeAtFill/></a>
-                <a className='icon_link color--white' target="_blank"
-                   href='https://www.linkedin.com/in/adam-rafik-268348230/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKxwj6YB8THKHXP3rh780vg%3D%3D'><Icon.Linkedin/></a>
                 <a className='icon_link color--white' href='#' onClick={handleDiscordClick}><Icon.Discord/></a>
                 <a className='icon_link color--white' target="_blank"
                    href='https://github.com/Adam-rk'><Icon.Github/></a>
