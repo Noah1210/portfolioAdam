@@ -1,6 +1,7 @@
 import Project from "./Project";
 import vodCover from '../../images/vodcover.png';
 import gameOfLifeCover from '../../images/gameoflife.png';
+import snkrs from '../../images/snkrs.jpg';
 
 export default function Projects() {
     const projects = [
@@ -20,11 +21,19 @@ export default function Projects() {
             githubLink: 'https://github.com/Adam-rk/Game-Of-Life',
             type: '️👷‍♂️ Projet Solo'
         }
+        ,
+        {
+            src: snkrs,
+            alt: 'Project screenshot',
+            name: 'SNRKS Notifier',
+            description: "Cette application Symfony permet d'être notifié par mail dès que de nouveaux articles sont disponibles sur le site Nike SNKRS.",
+            githubLink: 'https://github.com/Adam-rk/new-snkrs-releases.git',
+            type: '️👷‍♂️ Projet Solo'
+        }
     ]
     return (
         <div className='projects_container'>
-            <a href='#' className='color--white font--CircularLight size--150 fill_header' id='projects'>Projets (voir
-                plus)</a>
+            <a href='#' className='color--white font--CircularLight size--150 fill_header' id='projects'>Projets</a>
             <div className='projects_container'>
 
                 {projects.map(project => <div className='single_project'><Project src={project.src} alt={project.alt}
