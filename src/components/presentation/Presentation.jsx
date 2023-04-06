@@ -1,21 +1,26 @@
 import '../../styles/text.css';
-import '../../styles/Presentation.css'
+import '../../styles/Presentation.css';
+import '../../styles/animation.css';
+import cv from '../../images/cv.pdf';
 
 export default function Presentation() {
     return (
-        <div className='height--60vh items_alignment--center-left'>
-            <div className='color--white'>
-                <h1 className='font--NetflixSansRegular color--white margin_top--0 margin_bottom--2 size--300'>Développeur
-                    Full-Stack</h1>
-                <a href='mailto:adam.rfk2@gmail.com'
-                   className='font--NetflixSansRegular color--white size--50 email-button'>adam.rfk2@gmail.com</a>
-                <p className='font--CircularLight margin_top--5 margin_bottom--2 width--50'>Description zef zef zef ze f zezcefzefxzefze
-                    fxzefxzefxzef zefxzefxzefx zefxzefxzefxzef xzefxzefx
-                    zefxzefxzefxzefxz efxzefxzfxzefxzefx zefxzefxzefxzefxzef xzfx zfxzfxzfx zefxzxf
-                    zexfzx efxzefxze fxzefxzefxzefxzef xzefxzefxzefxzefxzefx zefxzefx zfxzef
-                    xzfx zfxzefxz efxzefxzefxzefxzefxze fxzefxzefxzefxzefxzefxzef xzefx zefx.</p>
-                <a href='#' className='color--white font--CircularMedium button_padding'>En savoir plus</a>
+        <div className='presentation_container'>
+
+            <h1 className='font--NetflixSansRegular color--white presentation_title'>Développeur
+                Full-Stack</h1>
+            <p className='font--CircularLight color--white presentation_text'>
+                Actuellement étudiant en deuxième année en école d'informatique je suis à la recheche d'une altérance
+                pour l'année scolaire 2023/2024.
+                Curieux d'apprendre et d'essayer de nouvelles choses, j'ai aussi pour projet de devenir developpeur
+                freelance. Alors si vous cherchez quelqu'un n'hesitez pas à me contacter 👨‍💻.
+            </p>
+            <div className='presentation_buttons'>
+                <a href={cv} download='cvRafikAdam' className='color--white font--CircularMedium button_resume fill_rectangle'>Télécharger mon
+                    CV</a>
+                <a href='/me' className='color--white font--CircularMedium button_resume fill_rectangle'>En savoir plus</a>
             </div>
+
         </div>
     )
 }

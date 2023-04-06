@@ -1,6 +1,46 @@
 html {
     height: 100vh;
-}
-body {
     background: #221F1F;
+
 }
+
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #221F1F;
+    z-index: 9999;
+    opacity: 0;
+    animation: fade-in 2s forwards;
+}
+
+.loading_text_container {
+    position: relative;
+    display: inline-block;
+}
+
+.loading_text {
+    margin-bottom: 0;
+}
+
+
+.loading_line {
+    position: absolute;
+    top: 75%; left: 0; right: 0; bottom: 10%;
+    background-color: rgba(240, 56, 107, 0.75);
+    z-index: -1;
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+    }
+}
+

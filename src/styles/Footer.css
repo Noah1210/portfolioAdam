@@ -1,0 +1,32 @@
+.footer_container {
+    background-color: #171515;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+}
+
+.copyright {
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+}
+.footer_icon_link {
+    font-size: 80%;
+    font-weight: lighter;
+    transition: transform 0.3s ease;
+    margin-bottom: 1%;
+}
+
+.footer_icon_link:hover {
+    transform: scale(1.05);
+}
+@media (max-width: 500px) {
+    .footer_container {
+        display: none;
+    }
+}

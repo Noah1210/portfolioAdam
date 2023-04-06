@@ -1,0 +1,46 @@
+.fill_rectangle {
+    position: relative;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.fill_rectangle::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: blue;
+    transform-origin: left center;
+    transform: scaleX(0);
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+
+.fill_rectangle:hover::before {
+    transform: scaleX(1);
+}
+
+.fill_header {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@media (max-width: 500px) {
+    .fill_header {
+        transition: none;
+    }
+    .fill_rectangle {
+        transition: none;
+    }
+}
