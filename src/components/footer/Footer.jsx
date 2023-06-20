@@ -33,7 +33,7 @@ export default function Footer() {
                 <a className='footer_icon_link color--white' href='mailto:contact@adamrafik.com'>contact@adamrafik.com</a>
                 <a className='footer_icon_link color--white' target="_blank" href='https://www.malt.fr/profile/adamrafik'>Malt</a>
                 <a className='footer_icon_link color--white' target="_blank"
-                   href='https://www.linkedin.com/in/adam-rafik-268348230/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKxwj6YB8THKHXP3rh780vg%3D%3D'>LinedIn</a>
+                   href='https://www.linkedin.com/in/adam-rafik/'>LinkedIn</a>
                 <a className='footer_icon_link color--white' target="_blank" href='https://github.com/Adam-rk'>Github</a>
 
             </div>

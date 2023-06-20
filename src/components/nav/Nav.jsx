@@ -6,7 +6,7 @@ import {useState} from "react";
 
 export default function Nav() {
 
-    const [text, setText] = useState('Adam_#9858');
+    const [text, setText] = useState('a_d_a_m._');
 
     function handleDiscordClick(event) {
         const input = document.createElement('input');
