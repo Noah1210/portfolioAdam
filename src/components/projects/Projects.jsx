@@ -30,6 +30,7 @@ export default function Projects() {
             githubLink: 'https://github.com/Adam-rk/new-snkrs-releases.git',
             type: '️👷‍♂️ Projet Solo'
         }
+        
     ]
     return (
         <div className='projects_container'>

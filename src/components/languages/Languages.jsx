@@ -19,7 +19,14 @@ export default function Languages() {
         {
             src: reactJsLogo,
             alt: 'React.JS logo',
-            name: 'React.js',
+            name: 'ReactJS',
+            link: '#'
+
+        },
+        {
+            src: reactJsLogo,
+            alt: 'React.JS logo',
+            name: 'React Native',
             link: '#'
 
         },
