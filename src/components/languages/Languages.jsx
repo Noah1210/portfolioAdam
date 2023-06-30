@@ -13,6 +13,8 @@ import pythonLogo from '../../images/python.png';
 import cLogo from '../../images/c.png';
 import cPlusLogo from '../../images/c++.png';
 import htmlCssLogo from '../../images/htmlcss.png';
+import flutterLogo from '../../images/flutter.svg';
+import dartLogo from '../../images/dart.png';
 
 export default function Languages() {
     const languages = [
@@ -89,6 +91,20 @@ export default function Languages() {
             name: 'HTML/CSS',
             link: '#'
         }
+        ,
+        {
+            src: dartLogo,
+            alt: 'Dart logo',
+            name: 'Dart',
+            link: '#'
+        }
+        ,
+        {
+            src: flutterLogo,
+            alt: 'Flutter logo',
+            name: 'Flutter',
+            link: '#'
+        }
     ];
     return (
         <div className='languages_container'>
@@ -102,7 +118,8 @@ export default function Languages() {
                     </span>
 
                 ))}
-
+                <span className='languages_language_item'></span>
+                <span className='languages_language_item'></span>
 
             </div>
         </div>

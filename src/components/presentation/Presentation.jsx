@@ -1,7 +1,6 @@
 import '../../styles/text.css';
 import '../../styles/Presentation.css';
 import '../../styles/animation.css';
-import cv from '../../images/cv.pdf';
 
 export default function Presentation() {
     return (
@@ -16,8 +15,8 @@ export default function Presentation() {
                 freelance. Alors si vous cherchez quelqu'un n'hesitez pas à me contacter 👨‍💻.
             </p>
             <div className='presentation_buttons'>
-                <a href={cv} download='cvRafikAdam' className='color--white font--CircularMedium button_resume fill_rectangle'>Télécharger mon
-                    CV</a>
+                {/*<a href={cv} download='cvRafikAdam' className='color--white font--CircularMedium button_resume fill_rectangle'>Télécharger mon
+                    CV</a>*/}
                 <a href='/me' className='color--white font--CircularMedium button_resume fill_rectangle'>En savoir plus</a>
             </div>
 
